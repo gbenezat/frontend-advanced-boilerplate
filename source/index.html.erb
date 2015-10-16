@@ -1,10 +1,98 @@
----
-title: Le Wagon Middleman boilerplate
----
+<!DOCTYPE html>
+<html>
+  <head>
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+  </head>
+  <body>
+
+    <!-- Banner -->
+    <div class="banner-image text-center">
+      <div class="banner-filter"></div>
+        <div class="banner-text">
+            <h1>Startup tools</h1>
+              <p>Very cool stuff, useful and smart</p>
+              <%= link_to "GET IT", "#", class: "btn btn-primary" %>
+        </div>
+      </div>
+    <!-- Cards -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <h3><%= image_tag "chat.png" %> Discuss best tools</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <h3><%= image_tag "mobile.png" %> Always in sync</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <h3><%= image_tag "search.png" %> Powerful search</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <h3><%= image_tag "heart.png" %> Share the love</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Avatar -->
+    <div class="container">
+    <h2 class="text-center">Most popular</h2>
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <div class="avatar">
+              <h3>POPULAR</h3>
+              <h4>TRELLO</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="avatar">
+            <h3>POPULAR</h3>
+            <h4>TRELLO</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="avatar">
+            <h3>POPULAR</h3>
+            <h4>TRELLO</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+
+    <!-- Map -->
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <ul class="list-inline">
+              <li><a href=""><i class="fa fa-youtube"></i></a></li>
+              <li><a href=""><i class="fa fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-8 text-right">
+            <p>This is a fictive product by LeWagon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
